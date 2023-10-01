@@ -42,5 +42,7 @@
                 </configuration>
             </plugin>
         </plugins>
+
+        <finalName> javawebapp-1.0.0</finalName>  
     </build>
 </project>
