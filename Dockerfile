@@ -1,11 +1,11 @@
-//FROM openjdk:11
-//EXPOSE 8080
-//ADD target/javawebapp-1.0.0.jar javawebapp-1.0.0.jar
-//ENTRYPOINT ["java", "-jar", "/javawebapp-1.0.0.jar"]
+#FROM openjdk:11
+#EXPOSE 8080
+#ADD target/javawebapp-1.0.0.jar javawebapp-1.0.0.jar
+#ENTRYPOINT ["java", "-jar", "/javawebapp-1.0.0.jar"]
 
 
 
-if the image size is too large, 
+#if the image size is too large, 
 # Use a smaller base image
 FROM adoptopenjdk:11-jre-hotspot
 
