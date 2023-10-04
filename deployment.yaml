@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: javawebapp
-          image: namratasdocker/git-docker-k8s-pipeline/javawebapp 
+          image: namratasdocker/git-docker-k8s-pipeline
 # Image that will be used to containers in the cluster
           imagePullPolicy: IfNotPresent
           ports:
