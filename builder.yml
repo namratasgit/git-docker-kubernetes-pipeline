@@ -1,0 +1,12 @@
+apiVersion: v1 # Kubernetes API version
+kind: Pod # Kubernetes resource kind we are creating
+metadata: # Metadata of the resource kind we are creating
+  name: kubectl-pod
+spec:
+  containers: 
+    - name: kubectl-container
+      image: joshendriks/alpine-k8s
+      command: 
+      -  /bin/cat
+      tty: true
+      
